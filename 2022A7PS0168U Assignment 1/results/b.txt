@@ -1,0 +1,28 @@
+Reading reviews and calculating sums/counts (CPU using RapidJSON)...
+Finished reading. Processed 6739590 valid reviews for 160052 unique products.
+Calculating average ratings (CPU)...
+Calculated 160052 average ratings.
+Sorting average ratings (GPU using Bitonic Sort)...
+  Padding data from 160052 to 262144 elements.
+Sorting complete.
+
+--- Top 10 Rated Products (ASIN) ---
+1. ASIN: B01HJFFHTC (Avg Rating: 3.8462)
+2. ASIN: B01HJF704M (Avg Rating: 3.9000)
+3. ASIN: B01HJH40WU (Avg Rating: 4.0000)
+4. ASIN: B01HJH42KU (Avg Rating: 4.1667)
+5. ASIN: B01HH837UM (Avg Rating: 3.0000)
+6. ASIN: B01G53WV20 (Avg Rating: 4.1429)
+7. ASIN: B01HI9GG30 (Avg Rating: 3.6667)
+8. ASIN: B01HIQYWU2 (Avg Rating: 4.3333)
+9. ASIN: B00TQISYOG (Avg Rating: 4.0000)
+10. ASIN: B01HI9ODP8 (Avg Rating: 4.4118)
+
+--- Timing Information ---
+CPU Reading/Parsing/Aggregation: 154716.557 ms
+CPU Average Calculation:         25.684 ms
+GPU Allocation & H2D Memcpy:     1.196 ms
+GPU Kernel Execution (Sort):     7.997 ms
+GPU D2H Memcpy & Free:           0.768 ms
+------------------------------------
+Total Execution Time:            154828.178 ms

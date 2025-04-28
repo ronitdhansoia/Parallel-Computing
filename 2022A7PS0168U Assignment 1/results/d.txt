@@ -1,0 +1,12 @@
+--- Sentiment Analysis Summary ---
+Total lines read:        6739590
+Successfully processed:  6738237
+Skipped/Errors:        1353
+----------------------------------
+Positive reviews (score > 0): 5478588
+Negative reviews (score < 0): 734308
+Neutral reviews (score = 0):  525341
+----------------------------------
+Total execution time:    323.607 seconds
+----------------------------------
+CUDA device synchronized (if used).

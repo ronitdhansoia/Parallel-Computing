@@ -1,0 +1,11 @@
+--- Sentiment Analysis Summary (CUDA Accelerated) ---
+Total lines read:        6739590
+Successfully processed:  6738237
+Skipped/Errors:        1353
+----------------------------------
+Positive reviews (score > 0): 5478052
+Negative reviews (score < 0): 752411
+Neutral reviews (score = 0):  507774
+----------------------------------
+Total execution time:    329.621 seconds
+----------------------------------

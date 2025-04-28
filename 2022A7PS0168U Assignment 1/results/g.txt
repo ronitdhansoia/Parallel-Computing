@@ -1,0 +1,14 @@
+Processing reviews sequentially (CPU)...
+Finished processing 6739590 lines.
+  Found 6738237 valid reviews.
+  Encountered 1353 errors/skipped lines.
+  Tracking elaborate reviews for 502039 unique reviewers.
+
+--- Elaborate Reviewers (>= 5 reviews with >= 50 words) ---
+Found 173094 elaborate reviewers.
+
+--- Timing Information ---
+CPU Reading/Parsing/Aggregation: 225071.750 ms
+CPU Filtering:                   121.283 ms
+------------------------------------
+Total Execution Time:            225193.161 ms
